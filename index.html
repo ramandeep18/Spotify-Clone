@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Let the music play!!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./assets/icon.png">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+    
+    <div class="songlist">
+        <h1>MIDNIGHT MEMORIES</h1>
+        <div class="songitemcontainer">
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">04:04<i id="0"  class="songitemplay fa-regular fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img src="" alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">04:00<i id="1"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">03:50<i id="2"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">04:56<i id="3"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">03:55<i id="4"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">02:47<i id="5"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">05:12<i id="6"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+            <div class="songitem">
+                <img  alt="1">
+                <span class="songName">Viva La Vida</span>
+                <span class="songlistplay"><span class="timestamp">02:54<i id="7"  class="songitemplay fa-regular   fa-circle-play"></i></span></span>
+            </div>
+        </div>
+    </div>
+    <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            
+           
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="./assets/playing.gif" width="50px" id="gif" ><span id="mastersongname">Viva La Vida</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a743a21388.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

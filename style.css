@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&family=Open+Sans:wght@300&family=Varela+Round&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Caveat&family=Josefin+Sans&family=Open+Sans:wght@300&family=Varela+Round&family=Ysabeau+Office:wght@600&display=swap');
+  
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Caveat&family=Fasthand&family=Josefin+Sans&family=Open+Sans:wght@300&family=Varela+Round&family=Ysabeau+Office:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Belanosima&family=Caveat&family=Fasthand&family=Josefin+Sans&family=Open+Sans:wght@300&family=Varela+Round&family=Ysabeau+Office:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Belanosima&family=Caveat&family=Exo+2:wght@500&family=Fasthand&family=Josefin+Sans&family=Open+Sans:wght@300&family=Varela+Round&family=Ysabeau+Office:wght@600&display=swap');
+body{
+    background-color:black;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    font-family: 'Belanosima', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+nav ul li{
+    padding:0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-image: url(./assets/background.jpg);
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    color: white;
+    
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 14px;
+    
+}
+.icons{
+    cursor: pointer;
+    
+}
+#myProgressBar{
+    width: 90vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+.songitem{
+   height: 50px;
+   display: flex;
+   background-color:black;
+   
+   color:white;
+   margin:12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 30px;
+}
+.songitem img{
+    width: 43px;
+    margin: 0 20px;
+    border-radius: 50%;
+
+}
+.timestamp{
+    margin-right: 10px;
+    
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 45px;
+}
+.songinfo{
+    position:absolute;
+    left:4vw;
+    font-family: 'Varela Round', sans-serif;
+}
+.songinfo img{
+    margin-top: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+
+
